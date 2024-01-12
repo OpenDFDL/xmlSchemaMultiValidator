@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<schema
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <element name="simple">
+    <complexType>
+      <sequence>
+        <element name="data" type="xs:string"/>
+      </sequence>
+    </complexType>
+  </element>
+
+</schema>
